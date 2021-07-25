@@ -1,0 +1,467 @@
+.navbar {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2; }
+
+.navbar__cont1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 150px; }
+
+.navbar__cont2 {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px; }
+
+.section__textbox, .section__textbox--trabajos, .section__textbox--trabajos2, .section__textbox--trabajos3, .section__textbox--trabajos4 {
+  position: absolute;
+  top: 200px;
+  width: 80%;
+  left: 5%;
+  padding: 10px; }
+
+.section__textbox--serv {
+  position: static;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-top: 10px; }
+
+.foot {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 800px; }
+
+.foot__txt {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 10px; }
+
+.body__section--trabajos {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 2480px; }
+
+.section__prod {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  padding: 20px;
+  height: 100px; }
+
+.prod__img {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-right: 5px; }
+
+.prod__txt {
+  margin-left: 5px;
+  color: white; }
+
+.navbar__button {
+  width: 80px;
+  height: 80px;
+  background-color: #4a62ff;
+  margin: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white; }
+
+.navbar__button1 {
+  width: 80px;
+  height: 80px;
+  background-color: #4a62ff;
+  margin: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  color: white; }
+
+.navbar__buttonimg {
+  width: 50px; }
+
+.button__txt {
+  font-size: 15px; }
+
+.navbar__button:hover {
+  transition: height 0.2s, width 0.2s;
+  height: 100px;
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.navbar__button1:hover {
+  transition: height 0.2s, width 0.2s;
+  height: 100px;
+  width: 100px; }
+
+@keyframes buttonscale {
+  0% {
+    width: 80px;
+    height: 80px; }
+  100% {
+    width: 100px;
+    height: 100px;
+    margin-left: 5px;
+    margin-right: 5px; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 33px; }
+
+h3 {
+  font-family: 'Cormorant', serif;
+  font-size: 25px; }
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; }
+
+a {
+  text-decoration: none; }
+
+.section__bg--index, .section__bg--prod, .section__bg--serv {
+  background-image: url(../img/indexph.jpg);
+  height: 620px;
+  position: relative;
+  z-index: 1; }
+
+.navbar--color {
+  background-image: linear-gradient(135deg, #005697, #000080); }
+
+.section__textbox--deco {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px; }
+
+.textcolor--index {
+  color: #4a62ff; }
+
+.textcolor--trabajos {
+  color: #fff; }
+
+.textcolor--servicios {
+  color: #fff; }
+
+.foot--bg {
+  background-color: black;
+  color: white; }
+
+.section__bg--trab1 {
+  position: relative;
+  background-image: url(../img/trab1.jpg);
+  background-size: cover;
+  height: 620px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken; }
+
+.section__bg--trab2 {
+  position: relative;
+  background-image: url(../img/trab2.jpg);
+  background-size: cover;
+  height: 620px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken; }
+
+.section__bg--trab3 {
+  position: relative;
+  background-image: url(../img/trab3.jpg);
+  background-size: cover;
+  height: 620px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken; }
+
+.section__bg--trab4 {
+  position: relative;
+  background-image: url(../img/trab4.jpg);
+  background-size: cover;
+  height: 620px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken; }
+
+.section__bg--prod, .section__bg--serv {
+  background-image: url(../img/prodph.jpg);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  position: static; }
+
+.section__bg--serv {
+  background-image: url(../img/servph.jpg);
+  height: 1200px; }
+
+.section__bg--cont {
+  background-color: #fff;
+  height: 620px; }
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .navbar {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 2; }
+  .navbar__cont1 {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 20px;
+    height: 300px; }
+  .navbar__cont2 {
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 320px;
+    height: 200px; }
+  .section__bg--index, .section__bg--prod, .section__bg--serv {
+    background-image: url(../img/indexphmq1.jpg);
+    height: 1200px;
+    background-position-x: -200px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    margin-left: 100px; }
+  .body__section--trabajos {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 4096px;
+    margin-left: 100px; }
+  .foot {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 1024px;
+    margin-left: 100px; }
+  .section__bg--trab1 {
+    position: relative;
+    background-image: url(../img/trab1mq1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--trab2 {
+    position: relative;
+    background-image: url(../img/trab2mq1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--trab3 {
+    position: relative;
+    background-image: url(../img/trab3mq1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--trab4 {
+    position: relative;
+    background-image: url(../img/trab4mq1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--prod, .section__bg--serv {
+    position: relative;
+    background-image: url(../img/prodphmq1.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 1024px;
+    background-position-x: 0px; }
+  .section__prod {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    height: 200px;
+    margin-left: 50px; }
+  .prod__img {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 5px; }
+  .prod__txt {
+    margin-left: 25px;
+    color: white; }
+  h1 {
+    font-size: 60px; }
+  h2 {
+    font-size: 40px; }
+  h3 {
+    font-size: 40px; }
+  p {
+    font-size: 25px; }
+  .section__bg--serv {
+    background-image: url(../img/servphmq1.jpg);
+    height: 1500px; }
+  .section__textbox, .section__textbox--trabajos, .section__textbox--trabajos2, .section__textbox--trabajos3, .section__textbox--trabajos4 {
+    position: absolute;
+    top: 650px;
+    width: 80%;
+    left: 5%;
+    padding: 10px; }
+  .section__bg--cont {
+    background-color: #fff;
+    height: 1240px;
+    margin-left: 100px; }
+  .section__textbox--serv {
+    margin-bottom: 50px; } }
+
+@media only screen and (min-width: 1024px) {
+  .navbar--color {
+    background-image: none; }
+  .navbar {
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2; }
+  .navbar__cont1 {
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    align-items: center;
+    bottom: 0px;
+    width: 300px;
+    margin-right: 250px;
+    height: 200px; }
+  .navbar__cont2 {
+    display: flex;
+    flex-flow: row;
+    position: absolute;
+    align-items: center;
+    bottom: 0px;
+    width: 300px;
+    height: 200px; }
+  .section__bg--index, .section__bg--prod, .section__bg--serv {
+    background-image: url(../img/indexphmq2.jpg);
+    height: 925px;
+    background-size: cover;
+    position: relative;
+    z-index: 1; }
+  .body__section--trabajos {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 4096px; }
+  .foot {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    height: 1024px; }
+  .section__bg--trab1 {
+    position: relative;
+    background-image: url(../img/trab1mq2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--trab2 {
+    position: relative;
+    background-image: url(../img/trab2mq2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--trab3 {
+    position: relative;
+    background-image: url(../img/trab3mq2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--trab4 {
+    position: relative;
+    background-image: url(../img/trab4mq2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken; }
+  .section__bg--prod, .section__bg--serv {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 25% 25%;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    background-image: url(../img/prodphmq2.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    height: 1024px;
+    background-position-x: 0px; }
+  .section__prod {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    height: 100px; }
+  .prod__img {
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 5px; }
+  .prod__txt {
+    margin-left: 25px;
+    color: white; }
+  h1 {
+    font-size: 60px; }
+  h2 {
+    font-size: 40px; }
+  h3 {
+    font-size: 40px; }
+  p {
+    font-size: 25px; }
+  .section__bg--serv {
+    background-image: url(../img/servphmq1.jpg);
+    height: 1500px; }
+  .section__textbox, .section__textbox--trabajos, .section__textbox--trabajos2, .section__textbox--trabajos3, .section__textbox--trabajos4 {
+    position: absolute;
+    top: 300px;
+    width: 30%;
+    left: 15%;
+    padding: 10px; }
+  .section__bg--cont {
+    background-color: #fff;
+    height: 1240px;
+    margin-left: 100px; }
+  .section__textbox--serv {
+    margin-bottom: 50px; } }

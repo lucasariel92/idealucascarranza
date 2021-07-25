@@ -1,0 +1,254 @@
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .navbar{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        top:0px;
+        z-index: 2;
+    }
+    .navbar__cont1{
+        display: flex;
+        flex-flow: column;
+        position: absolute;
+        top: 20px;
+        height: 300px;
+        
+    }
+    .navbar__cont2{
+        display: flex;
+        flex-flow: column;
+        position: absolute;
+        top: 320px;
+        height: 200px;
+        
+        
+    }
+    .section__bg--index{
+        background-image: url(../img/indexphmq1.jpg);
+        height: 1200px;
+        background-position-x: -200px;
+        background-size: cover ;
+        position: relative;
+        z-index: 1;
+        margin-left: 100px;
+    }
+    .body__section--trabajos{
+        display: flex;
+        flex-flow: column nowrap;
+        height: 4096px;
+        margin-left: 100px;
+    }
+    .foot{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        height: 1024px;
+        margin-left: 100px;
+    }
+    @for $i from 1 through 4 {
+        .section__bg--trab#{$i}{
+            position: relative;
+            background-image: url(../img/trab#{$i}mq1.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 1024px;
+            background-color: rgba(0,0,0,0.7);
+            background-blend-mode: darken;
+        }
+    }
+    .section__bg--prod{
+        position: relative;
+        background-image: url(../img/prodphmq1.jpg);
+        background-color: rgba(0,0,0,0.5);
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        height: 1024px;
+        background-position-x: 0px;
+    }
+    .section__prod{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        height: 200px;
+        margin-left: 50px;
+    }
+    .prod__img{
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 5px;
+    }
+    .prod__txt{
+        margin-left: 25px;
+        color: white;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .section__bg--serv{
+        background-image: url(../img/servphmq1.jpg);
+        height: 1500px;
+    }
+    .section__textbox{
+        position: absolute;
+        top: 650px;
+        width: 80%;
+        left: 5%;
+        padding: 10px;
+    }
+    .section__bg--cont{
+        background-color: #fff;
+        height: 1240px;
+        margin-left: 100px;
+    }
+    .section__textbox--serv{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .navbar--color{
+        background-image: none;
+    }
+    .navbar{
+        display: flex;
+        flex-flow: row-reverse;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+        position: fixed;
+        bottom: 0px;
+        z-index: 2;
+    }
+    .navbar__cont1{
+        display: flex;
+        flex-flow: row;
+        position: absolute;
+        align-items: center;
+        bottom: 0px;
+        width: 300px;
+        margin-right: 250px;
+        height: 200px;
+        
+        
+    }
+    .navbar__cont2{
+        display: flex;
+        flex-flow: row;
+        position: absolute;
+        align-items: center;
+        bottom: 0px;
+        width: 300px;
+        height: 200px;
+        
+        
+        
+    }
+    .section__bg--index{
+        background-image: url(../img/indexphmq2.jpg);
+        height: 925px;
+        background-size: cover ;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .body__section--trabajos{
+        display: flex;
+        flex-flow: column nowrap;
+        height: 4096px;
+    }
+    .foot{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        height: 1024px;
+    }
+    @for $i from 1 through 4 {
+        .section__bg--trab#{$i}{
+            position: relative;
+            background-image: url(../img/trab#{$i}mq2.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 1024px;
+            background-color: rgba(0,0,0,0.7);
+            background-blend-mode: darken;
+            
+        }
+    }
+    .section__bg--prod{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25%;
+        justify-content: center;
+        align-content: center;
+        position: relative;
+        background-image: url(../img/prodphmq2.jpg);
+        background-color: rgba(0,0,0,0.5);
+        background-blend-mode: darken;
+        background-repeat: no-repeat;
+        height: 1024px;
+        background-position-x: 0px;
+    }
+    .section__prod{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        height: 100px;
+        
+    }
+    .prod__img{
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 20px;
+        margin-right: 5px;
+    }
+    .prod__txt{
+        margin-left: 25px;
+        color: white;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 40px;
+    }
+    p{
+        font-size: 25px;
+    }
+    .section__bg--serv{
+        background-image: url(../img/servphmq1.jpg);
+        height: 1500px;
+    }
+    .section__textbox{
+        position: absolute;
+        top: 300px;
+        width: 30%;
+        left: 15%;
+        padding: 10px;
+    }
+    .section__bg--cont{
+        background-color: #fff;
+        height: 1240px;
+        margin-left: 100px;
+    }
+    .section__textbox--serv{
+        margin-bottom: 50px;
+    }
+}

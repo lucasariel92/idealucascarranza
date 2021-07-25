@@ -1,0 +1,46 @@
+.navbar__button{
+    width: 80px;
+    height: 80px;
+    background-color: $buttoncolor;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+.navbar__button1{
+    width: 80px;
+    height: 80px;
+    background-color: $buttoncolor;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+.navbar__buttonimg{
+    width: 50px;
+}
+.button__txt{
+    font-size: 15px;
+}
+.navbar__button:hover{
+    transition: height 0.2s, width 0.2s;
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    
+}
+.navbar__button1:hover{
+    transition: height 0.2s, width 0.2s;
+    height: 100px;
+    width: 100px;
+
+    
+}

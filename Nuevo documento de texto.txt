@@ -1,0 +1,24 @@
+Se agregaron las keywords relacionadas con el rubro de trabajo del cliente.
+Se cambiaron todos los titulos a Calcografica - <Titulo de seccion>
+
+1.Se optimizaron las imagenes para cada media query
+2.Se recortaron las ULR's siendo objetivas al sitio al cual se dirige
+3.Cambios en index:
+			O Se agregaron keywords y se modifico su titulo.
+			O La imagen de fondo tiene un archivo especifico para cada dispositivo.
+4.Cambios en trabajos:
+			O Se agregaron keywords y se modifico su titulo.
+			O Cada imagen de fondo (de las 4 distintas imagenes) tiene un archivo especifico para cada dispositivo.
+5.Cambios en servicios:
+			O Se agregaron keywords y se modifico su titulo.
+			O La imagen de fondo tiene un archivo especifico para cada dispositivo.
+6.Cambios en productos:
+			O Se agregaron keywords y se modifico su titulo.
+			O La imagen de fondo tiene un archivo especifico para cada dispositivo.
+7.Cambios en contacto:
+			O Se agregaron keywords y se modifico su titulo.
+
+8. Como es recomendado por las buenas practicas de SEO, el diseño se hizo
+   a partir de Mobile First.
+9.Todas las imagenes fueron optimizadas para asegurar la mejor relacion calidad/tamaño (kb).
+10.Cambie los h1, h2 y h3 para que solo haya un h1.
