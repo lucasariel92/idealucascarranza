@@ -1,5 +1,5 @@
-@import "layout/layout";
 @import "var";
+@import "layout/layout";
 @import"components/components";
 @import"keyframes";
 
@@ -28,7 +28,8 @@ a{
 }
 .section__bg--index{
     background-image: url(../img/indexph.jpg);
-    height: 620px;
+    background-size: cover;
+    height: 100vh;
     position: relative;
     z-index: 1;
 }
@@ -59,7 +60,7 @@ a{
         background-image: url(../img/trab#{$i}.jpg);
         background-size: cover;
         
-        height: 620px;
+        height: 100vh;
         background-color: rgba(0,0,0,0.7);
         background-blend-mode: darken;
     }
@@ -90,4 +91,5 @@ a{
     background-color: #fff;
     height: 620px;
 }
+
 @import"layout/mq";

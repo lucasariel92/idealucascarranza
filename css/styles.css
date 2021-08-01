@@ -3,7 +3,7 @@
   flex-flow: column nowrap;
   align-items: center;
   width: 100%;
-  height: 200px;
+  height: 100px;
   position: fixed;
   bottom: 0px;
   z-index: 2; }
@@ -13,14 +13,14 @@
   flex-flow: row;
   justify-content: center;
   position: absolute;
-  bottom: 150px; }
+  bottom: 75px; }
 
 .navbar__cont2 {
   display: flex;
   flex-flow: row;
   justify-content: center;
   position: absolute;
-  bottom: 50px; }
+  bottom: 10px; }
 
 .section__textbox, .section__textbox--trabajos, .section__textbox--trabajos2, .section__textbox--trabajos3, .section__textbox--trabajos4 {
   position: absolute;
@@ -40,7 +40,7 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  height: 800px; }
+  height: 30vh; }
 
 .foot__txt {
   display: flex;
@@ -51,7 +51,7 @@
 .body__section--trabajos {
   display: flex;
   flex-flow: column nowrap;
-  height: 2480px; }
+  height: 400vh; }
 
 .section__prod {
   display: flex;
@@ -71,35 +71,36 @@
   margin-left: 5px;
   color: white; }
 
+/*barra de navegacion*/
 .navbar__button {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background-color: #4a62ff;
   margin: 10px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 15px;
   color: white; }
 
 .navbar__button1 {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   background-color: #4a62ff;
   margin: 10px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 15px;
   color: white; }
 
 .navbar__buttonimg {
-  width: 50px; }
+  width: 25px; }
 
 .button__txt {
-  font-size: 15px; }
+  font-size: 10px; }
 
 .navbar__button:hover {
   transition: height 0.2s, width 0.2s;
@@ -112,6 +113,48 @@
   transition: height 0.2s, width 0.2s;
   height: 100px;
   width: 100px; }
+
+/*Formulario de contacto*/
+.section__form {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-top: 20px;
+  color: #4a62ff;
+  justify-content: center; }
+
+.form__form {
+  display: flex;
+  flex-flow: column;
+  width: 75%;
+  margin: auto;
+  margin-top: 50px; }
+
+.form__cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.form__name {
+  width: 100%; }
+
+.form__mail {
+  width: 40%; }
+
+.form__tel {
+  width: 40%; }
+
+.form__cons {
+  width: 100%;
+  margin-bottom: 20px; }
+
+.form__submit {
+  background-color: #4a62ff;
+  border-radius: 20px;
+  color: white;
+  height: 50px;
+  width: 100%; }
 
 @keyframes buttonscale {
   0% {
@@ -148,7 +191,8 @@ a {
 
 .section__bg--index, .section__bg--prod, .section__bg--serv {
   background-image: url(../img/indexph.jpg);
-  height: 620px;
+  background-size: cover;
+  height: 100vh;
   position: relative;
   z-index: 1; }
 
@@ -176,7 +220,7 @@ a {
   position: relative;
   background-image: url(../img/trab1.jpg);
   background-size: cover;
-  height: 620px;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken; }
 
@@ -184,7 +228,7 @@ a {
   position: relative;
   background-image: url(../img/trab2.jpg);
   background-size: cover;
-  height: 620px;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken; }
 
@@ -192,7 +236,7 @@ a {
   position: relative;
   background-image: url(../img/trab3.jpg);
   background-size: cover;
-  height: 620px;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken; }
 
@@ -200,7 +244,7 @@ a {
   position: relative;
   background-image: url(../img/trab4.jpg);
   background-size: cover;
-  height: 620px;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: darken; }
 
@@ -243,29 +287,30 @@ a {
     height: 200px; }
   .section__bg--index, .section__bg--prod, .section__bg--serv {
     background-image: url(../img/indexphmq1.jpg);
-    height: 1200px;
-    background-position-x: -200px;
+    height: 100vh;
     background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 1;
-    margin-left: 100px; }
+    margin-left: 100px;
+    width: 100%; }
   .body__section--trabajos {
     display: flex;
     flex-flow: column nowrap;
-    height: 4096px;
+    height: 400vh;
     margin-left: 100px; }
   .foot {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    height: 1024px;
+    height: 20vh;
     margin-left: 100px; }
   .section__bg--trab1 {
     position: relative;
     background-image: url(../img/trab1mq1.jpg);
     background-size: cover;
     width: 100%;
-    height: 1024px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken; }
   .section__bg--trab2 {
@@ -273,7 +318,7 @@ a {
     background-image: url(../img/trab2mq1.jpg);
     background-size: cover;
     width: 100%;
-    height: 1024px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken; }
   .section__bg--trab3 {
@@ -281,7 +326,7 @@ a {
     background-image: url(../img/trab3mq1.jpg);
     background-size: cover;
     width: 100%;
-    height: 1024px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken; }
   .section__bg--trab4 {
@@ -289,7 +334,7 @@ a {
     background-image: url(../img/trab4mq1.jpg);
     background-size: cover;
     width: 100%;
-    height: 1024px;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken; }
   .section__bg--prod, .section__bg--serv {
@@ -329,7 +374,7 @@ a {
   .section__textbox, .section__textbox--trabajos, .section__textbox--trabajos2, .section__textbox--trabajos3, .section__textbox--trabajos4 {
     position: absolute;
     top: 650px;
-    width: 80%;
+    width: 70%;
     left: 5%;
     padding: 10px; }
   .section__bg--cont {
@@ -337,7 +382,33 @@ a {
     height: 1240px;
     margin-left: 100px; }
   .section__textbox--serv {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .navbar__button {
+    width: 80px;
+    height: 80px;
+    background-color: #4a62ff;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white; }
+  .navbar__button1 {
+    width: 80px;
+    height: 80px;
+    background-color: #4a62ff;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white; }
+  .navbar__buttonimg {
+    width: 50px; }
+  .button__txt {
+    font-size: 15px; } }
 
 @media only screen and (min-width: 1024px) {
   .navbar--color {
@@ -382,7 +453,7 @@ a {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    height: 1024px; }
+    height: 20vh; }
   .section__bg--trab1 {
     position: relative;
     background-image: url(../img/trab1mq2.jpg);
@@ -464,4 +535,30 @@ a {
     height: 1240px;
     margin-left: 100px; }
   .section__textbox--serv {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; }
+  .navbar__button {
+    width: 80px;
+    height: 80px;
+    background-color: #4a62ff;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white; }
+  .navbar__button1 {
+    width: 80px;
+    height: 80px;
+    background-color: #4a62ff;
+    margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white; }
+  .navbar__buttonimg {
+    width: 50px; }
+  .button__txt {
+    font-size: 15px; } }
